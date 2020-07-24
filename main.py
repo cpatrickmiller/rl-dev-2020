@@ -26,7 +26,7 @@ def main() -> None:
     event_handler = EventHandler()
 
     player = copy.deepcopy(entity_factories.player)
-    
+
     game_map = generate_dungeon(
         max_rooms=max_rooms,
         room_min_size=room_min_size,
